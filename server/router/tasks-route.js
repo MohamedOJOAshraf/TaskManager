@@ -12,6 +12,3 @@ router.route('/deleteTask/:Id').delete(deleteTask)
 router.route('/patchTask/:Id').patch(patchTask)
 
 module.exports = router
-
-
-router
